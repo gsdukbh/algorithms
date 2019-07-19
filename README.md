@@ -7,3 +7,5 @@
   * - [ ] 5 [最长回文子串](/src/leetcode/Fives.java)
   * - [x] 3 [无重复字符的最长子串](/src/leetcode/Three.java)
   * - [x] 7 [整数反转](/src/leetcode/seven.java)
+  * - [x] 9 [回文数](/src/leetcode/Nine.java) 
+      * [Python 写法](/src/leetcode/Nine.md)
