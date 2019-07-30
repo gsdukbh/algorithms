@@ -36,7 +36,7 @@ public class Twenty {
             }
 
         }
-        return stack.isEmpty();
+        return stack.empty();
     }
 
 }
