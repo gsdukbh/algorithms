@@ -10,7 +10,7 @@
 * - [x] 3 [无重复字符的最长子串](/src/leetcode/Three.java)
 * - [x] 7 [整数反转](/src/leetcode/seven.java)
 * - [x] 9 [回文数](/src/leetcode/Nine.java) 
-     * - [Python 写法](/src/leetcode/Nine.md)
+   *  [Python 写法](/src/leetcode/Nine.md)
 * - [x] 13 [罗马数字转整数](/src/leetcode/Thirteen.java)
        * [Python3 写法](src/leetcode/Thirteen.md)
  * - [x] 20 [有效括号检测](src/leetcode/Twenty.java)
