@@ -1,5 +1,7 @@
 package leetcode;
 
+import java.util.ArrayList;
+
 public class MinCostClimbingStairs {
     /**
      * 使用最小花费爬楼梯

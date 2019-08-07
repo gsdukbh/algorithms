@@ -1,11 +1,14 @@
 package leetcode;
 
+import java.util.HashMap;
+
 public class IsAnagram {
     /**
      *
      */
     public boolean isAnagram(String s, String t) {
         int a=0;
+
         if( s.length()!=t.length()){
             return false;
         }
@@ -14,4 +17,7 @@ public class IsAnagram {
         }
         return false;
     }
+
+
+
 }
