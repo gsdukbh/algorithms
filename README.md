@@ -2,6 +2,7 @@
 =====
 已经完成的
 ===
+* - [x] 365 [水壶问题](src/leetcode/CanMeasureWater.java) 
 * - [x] [构建二叉数](src/leetcode/reConstructBinaryTree.md)
 * - [x] [字符串转换整数](src/leetcode/MyAtoi.MD)
 * - [x]  [最大二叉树](src/leetcode/ConstructMaximumBinaryTree.md)
@@ -17,6 +18,6 @@
       * [Python 写法](/src/leetcode/Nine.md)
 * - [x] 13 [罗马数字转整数](/src/leetcode/Thirteen.java)
        * [Python3 写法](src/leetcode/Thirteen.md)
- * - [x] 20 [有效括号检测](src/leetcode/Twenty.java)
- * - [x] 409 [最长回文串](src/leetcode/LongestPalindrome.java) 每日一题计划
-  * - [x] 1538[Top k数,最小数](src/leetcode/GetLeastNumbers.java)
+* - [x] 20 [有效括号检测](src/leetcode/Twenty.java)
+* - [x] 409 [最长回文串](src/leetcode/LongestPalindrome.java) 每日一题计划
+* - [x] 1538 [Top k数,最小数](src/leetcode/GetLeastNumbers.java)
