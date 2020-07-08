@@ -3,7 +3,7 @@
 已经完成的
 ===
 
-- [x]  112 [路径总和](src\leetcode\HasPathSum.md)
+- [x]  112 [路径总和](src/leetcode/HasPathSum.md)
 
 * - [x] 365 [水壶问题](src/leetcode/CanMeasureWater.java) 
 * - [x] [构建二叉数](src/leetcode/reConstructBinaryTree.md)
