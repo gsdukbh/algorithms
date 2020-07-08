@@ -3,6 +3,8 @@
 已经完成的
 ===
 
+- [x] [跳水板](src/leetcode/HasPathSum.md)  每日一题
+
 - [x]  112 [路径总和](src/leetcode/HasPathSum.md)
 
 * - [x] 365 [水壶问题](src/leetcode/CanMeasureWater.java) 
