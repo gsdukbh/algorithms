@@ -3,7 +3,7 @@
 已经完成的
 ===
 
-- [x] [跳水板](src/leetcode/HasPathSum.md)  每日一题
+- [x] [跳水板](src/leetcode/DivingBoard.md)  每日一题
 
 - [x]  112 [路径总和](src/leetcode/HasPathSum.md)
 
