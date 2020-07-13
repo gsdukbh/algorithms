@@ -3,6 +3,8 @@
 已经完成的
 ===
 
+- [x] 350 [两个数组的交集 Ⅱ](src/leetcode/Intersect.md)
+
 - [x] 47 [全排序 Ⅱ](src/leetcode/PermuteUnique.md)
 
 - [x] 46 [全排序](src/leetcode/Permute.md)
