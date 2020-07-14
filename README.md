@@ -3,6 +3,8 @@
 已经完成的
 ===
 
+- [ ] 120 [三角形最小路径和]
+
 - [x] 350 [两个数组的交集 Ⅱ](src/leetcode/Intersect.md)
 
 - [x] 47 [全排序 Ⅱ](src/leetcode/PermuteUnique.md)
