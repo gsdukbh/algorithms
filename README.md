@@ -3,7 +3,7 @@
 已经完成的
 ===
 
-
+- [x] 35 [搜索插入位置](src/leetcode/SearchInsert.md)
 
 - [x] 120 [三角形最小路径和](src/leetcode/MininumTotal.md)
 
