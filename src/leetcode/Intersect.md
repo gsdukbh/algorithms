@@ -8,7 +8,7 @@
 
 在遍历第二数组，与之比较将重复的数字保存到新数组里面，然后返回结果。
 
-[代码](src/leetcode/Instersect.java)
+[代码](Instersect.java)
 
 ```java
 public class Intersect {

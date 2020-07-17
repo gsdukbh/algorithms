@@ -18,7 +18,7 @@
 
 这利用了贪心算法，每次选择最优的选择，可以自低向上来解决
 
-[代码](src/leetcode/MininumTotal.java)
+[代码](MininumTotal.java)
 
 ```java
 public class MininumTotal {

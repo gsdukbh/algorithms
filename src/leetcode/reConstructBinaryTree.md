@@ -17,7 +17,7 @@
 4.切割子树序列
 5.递归以上步骤
 ```
-+ [代码](src/leetcode/reConstructBinaryTree.java)
++ [代码](reConstructBinaryTree.java)
 ```java
 public class reConstructBinaryTree {
     public static class TreeNode {

@@ -15,7 +15,7 @@
      * //  [3,2,1]
 ```
 
-[代码](src\leetcode\Permute.java) :
+[代码](Permute.java) :
 
 ```java
 public class Permute {
