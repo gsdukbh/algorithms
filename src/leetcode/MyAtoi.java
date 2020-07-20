@@ -1,36 +1,35 @@
 package leetcode;
-import java.util.regex.*;
+
 public class MyAtoi {
     /**
      * 字符串转换整数
      */
     private static int myAtoi(String str) {
-        int k=1;
-        int j=0;
-        int start=0;
-        long res=0;
+        int k = 1;
+        int j = 0;
+        int start = 0;
+        long res = 0;
         str = str.trim();
-        if (str==null||str.length()==0){
-          return 0;
+        if (str == null || str.length() == 0) {
+            return 0;
         }
-        char first=str.charAt(0);
-        if (first == '+'){
+        char first = str.charAt(0);
+        if (first == '+') {
             k = 1;
-            start ++;
-        }
-        else if (first == '-'){
+            start++;
+        } else if (first == '-') {
             k = -1;
-            start ++;
+            start++;
         }
-        for (int i=start;i<str.length();i++){
-            if (!Character.isDigit(str.charAt(i))){
+        for (int i = start; i < str.length(); i++) {
+            if (!Character.isDigit(str.charAt(i))) {
                 return (int) res * k;
             }
-            res = res * 10 + (int)str.charAt(i) -'0';
-            if (k==1&& res>Integer.MAX_VALUE){
+            res = res * 10 + (int) str.charAt(i) - '0';
+            if (k == 1 && res > Integer.MAX_VALUE) {
                 return Integer.MAX_VALUE;
             }
-            if (k==-1 && res>Integer.MAX_VALUE){
+            if (k == -1 && res > Integer.MAX_VALUE) {
                 return Integer.MIN_VALUE;
             }
         }
