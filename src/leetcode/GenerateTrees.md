@@ -1,21 +1,59 @@
-package leetcode;
+## 95.不同的二叉搜索树
 
-import java.util.ArrayList;
+### 思路：
 
-import java.util.List;
+因为是二叉搜索树，故左节点比右节点小。可以用这个规则递归的生成二叉树。由`[0,n]`的整数生成的二叉树，在当前选择 根节点为`i`  时，左子树为`[0,i]` 右子树为`[i+1,n]` 分别递归这两个区间。生成不同的二叉树。
 
-public class GenerateTrees {
+[代码](GeneratTree.java)
 
-    public static void main(String[] args) {
-        List<TreeNode> res = generateTrees(2);
-        for (TreeNode treeNode : res) {
-            System.out.println(treeNode.Preorder(treeNode));
-
+```java
+ public static List<TreeNode> generateTrees(int n) {
+        List<TreeNode> res = new ArrayList<>();
+        if (n == 0) {
+            return res;
         }
-
+        return generateTrees_(1, n);
     }
 
-    /**
+    public static List<TreeNode> generateTrees(int l, int r) {
+        List<TreeNode> res = new ArrayList<>();
+        if (l > r) {
+            res.add(null);
+            return res;
+        }
+        for (int i = l; i <= r; i++) {
+            List<TreeNode> left = generateTrees(l, i - 1);
+            List<TreeNode> righ = generateTrees(i + 1, r);
+            for (TreeNode treeNode : left) {
+                for (TreeNode treeNode2 : righ) {
+                    TreeNode tem = new TreeNode(i);
+                    tem.left = treeNode;
+                    tem.right = treeNode2;
+                    res.add(tem);
+                }
+            }
+        }
+        return res;
+    }
+
+```
+
+### 思路2：
+
+观察由增长整数二叉树搜索树的生成发现，其实当树只有两个节点时 只用两种状态。
+
+```text
+	1        		2				5			6
+	 \			   /				 \		   /
+   	  2		  	  1					  6		  5
+```
+
+利用这个特点，每次新节点都作为root ，或者作为 上一个树的 叶子节点的右节点。
+
+[代码](GeneratTree.java)
+
+```java
+	/**
      * 0 <= n <= 8 搜索二叉树
      * 
      * @param n
@@ -78,34 +116,5 @@ public class GenerateTrees {
         node.right = clone(root.right);
         return node;
     }
+```
 
-    public static List<TreeNode> generateTrees_1(int n) {
-        List<TreeNode> res = new ArrayList<>();
-        if (n == 0) {
-            return res;
-        }
-        return generateTrees_(1, n);
-    }
-
-    public static List<TreeNode> generateTrees_(int l, int r) {
-        List<TreeNode> res = new ArrayList<>();
-        if (l > r) {
-            res.add(null);
-            return res;
-        }
-        for (int i = l; i <= r; i++) {
-            List<TreeNode> left = generateTrees_(l, i - 1);
-            List<TreeNode> righ = generateTrees_(i + 1, r);
-            for (TreeNode treeNode : left) {
-                for (TreeNode treeNode2 : righ) {
-                    TreeNode tem = new TreeNode(i);
-                    tem.left = treeNode;
-                    tem.right = treeNode2;
-                    res.add(tem);
-                }
-            }
-        }
-        return res;
-    }
-
-}

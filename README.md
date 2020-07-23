@@ -1,7 +1,15 @@
 算法训练
 =====
 已经完成的
-===
+---
+
+- [x] [64.最小路径和](src/leetcode/MinPathSum.md)
+
+- [x] [95.不同的二叉搜索树](src/leetcode/GenerateTrees.md)
+
+- [x] [杨辉三角 ](src/leetcode/Generate.md) [杨辉三角Ⅱ](src/leetcode/GetRow.md)
+
+- [x] [两数之和](src/leetcode/TwoSum.md)
 
 - [x] 35 [搜索插入位置](src/leetcode/SearchInsert.md)
 

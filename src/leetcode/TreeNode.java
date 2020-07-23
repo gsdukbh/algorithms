@@ -3,6 +3,10 @@ package leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.swing.plaf.synth.SynthToolBarUI;
+
+import jdk.internal.cmm.SystemResourcePressureImpl;
+
 /**
  * Definition for a binary tree node 定义二叉树
  */
@@ -11,6 +15,10 @@ public class TreeNode {
         TreeNode left;
         TreeNode right;
         private List<Integer> res = new ArrayList<>();
+
+        TreeNode() {
+
+        }
 
         TreeNode(int x) {
                 val = x;
@@ -33,5 +41,16 @@ public class TreeNode {
         public List<Integer> Preorder(TreeNode root) {
                 prologue(root);
                 return res;
+        }
+
+        public void soutTree(TreeNode root) {
+                if (root != null) {
+                        System.out.println(root.val);
+                        System.out.println("/");
+                        soutTree(root.left);
+                        System.out.println("\\");
+                        soutTree(root.right);
+
+                }
         }
 }
