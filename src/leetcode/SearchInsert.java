@@ -10,7 +10,7 @@ public class SearchInsert {
         /**
          * 二分
          */
-        int high = nums.length;
+        int high = nums.length -1;
         int low = 0;
         while (low <= high) {
             int mid = (low + high) / 2;
