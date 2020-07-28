@@ -3,6 +3,8 @@ leetcode  刷题笔记
 已经完成的
 ---
 
+- [x] [寻找数组的中心索引](src/leetcode/PivotIndex.md)
+
 - [x] [判断子序列](src/leetcode/IsSubsequence.md)
 
 - [x] [二叉树最大深度](src/leetcode/MaxDepth.md)
