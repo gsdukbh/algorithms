@@ -1,7 +1,11 @@
-算法训练
+leetcode  刷题笔记
 =====
 已经完成的
 ---
+
+- [x] [判断子序列](src/leetcode/IsSubsequence.md)
+
+- [x] [二叉树最大深度](src/leetcode/MaxDepth.md)
 
 - [x] [64.最小路径和](src/leetcode/MinPathSum.md)
 
