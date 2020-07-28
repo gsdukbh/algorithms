@@ -32,3 +32,8 @@ public static int pivotIndex(int[] nums) {
     }
 ```
 
+~~~text
+```math
+f\left( t\right) =\dfrac {1}{2\pi }\int ^{\infty }_{-\infty }F\left( \omega \right) e^{i\omega t}d\omega
+```
+~~~
