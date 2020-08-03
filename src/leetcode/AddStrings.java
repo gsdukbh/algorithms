@@ -14,6 +14,7 @@ public class AddStrings {
         int n = num1.length() - 1, m = num2.length() - 1, carry = 0;
         while (carry != 0 || n >= 0 || m >= 0) {
             if (n >= 0) {
+                // 复位
                 carry += num1.charAt(n--) - '0';
             }
             if (m >= 0) {
@@ -22,6 +23,7 @@ public class AddStrings {
             stringBuffer.append(carry % 10);
             carry /= 10;
         }
+        // 反转
         return stringBuffer.reverse().toString();
     }
 }

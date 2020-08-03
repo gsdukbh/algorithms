@@ -3,6 +3,10 @@ leetcode  刷题笔记
 已经完成的
 ---
 
+- [ ] [整数拆分](src/leetcode/IntegerBreak.md)
+
+- [x] [字符串相加](src/leetcode/AddString.md)
+
 - [x] [寻找数组的中心索引](src/leetcode/PivotIndex.md)
 
 - [x] [判断子序列](src/leetcode/IsSubsequence.md)
