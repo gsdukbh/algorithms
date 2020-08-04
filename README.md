@@ -3,6 +3,8 @@ leetcode  刷题笔记
 已经完成的
 ---
 
+- [x]  [课程表](src/leetcode/CanFinish.md)
+
 - [ ] [整数拆分](src/leetcode/IntegerBreak.md)
 
 - [x] [字符串相加](src/leetcode/AddString.md)
