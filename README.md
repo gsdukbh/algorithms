@@ -1,6 +1,11 @@
-leetcode  刷题笔记
+algorithms 练习笔记。
 =====
-已经完成的
+
+记录平时algorithm练习笔记
+
+
+
+以下是leetcode ：
 ---
 
 - [x]  [课程表](src/leetcode/CanFinish.md)
