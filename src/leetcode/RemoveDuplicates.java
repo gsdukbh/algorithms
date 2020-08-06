@@ -1,5 +1,9 @@
 package leetcode;
 
+/**
+ * @author LeeJiawei
+ * @Date 2020年8月5日
+ */
 public class RemoveDuplicates {
     public int removeDuplicates(int[] nums) {
         if (nums == null || nums.length == 1) {

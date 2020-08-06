@@ -3,6 +3,8 @@ algorithms 练习笔记。
 
 记录平时algorithm练习笔记
 
+[algorithms 第四版学习笔记](src/algortihm)
+
 
 
 以下是leetcode ：
@@ -51,7 +53,7 @@ algorithms 练习笔记。
 * - [x] 14 [最长公共前缀](src/leetcode/Fourteen.md)
 * - [x] 2 [两数相加](/src/leetcode/QuestionTwo.java)
 * - [x]  4 [寻找两个有序数组的中位数](/src/leetcode/Four.java)
-* - [ ] 5 [最长回文子串](/src/leetcode/Fives.java)
+* - [x] 5 [最长回文子串](/src/leetcode/Fives.md)
 * - [x] 3 [无重复字符的最长子串](/src/leetcode/Three.java)
 * - [x] 7 [整数反转](/src/leetcode/seven.java)
 * - [x] 9 [回文数](/src/leetcode/Nine.java) 

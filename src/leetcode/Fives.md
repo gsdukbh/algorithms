@@ -1,30 +1,13 @@
-package leetcode;
+## 最长回文字串
 
-/**
- * @author ：lijiawei
- * @date ：Created in 2019/5/29 21:23
- * @description：最长回文子串
- * @version: 1
- */
-public class Fives {
+##### 思路一：
 
-    public static void main(String[] args) {
-        String s = "abacdfgdcabaaaaaaaaabaaaaaaabcccccccccbccccccccjccccccccjcccccsccccjcccccsjcscjkaskkasjdkldsjkncscljakncjksacsjkcnsadksajdwiulcnsjkgnaskljnsadkjashlcsuiahjdsakbjkcbksjnkjadnwlaucnjsklahdjklshajkdwjkankjscnajksc;alkfgjdkfjkjjjskldkkkkkkkkkospdkakddskkdsaaadskkjkljkjkljksjcksakdksdadvajdkcnlsdjkvnljkasnsjkcaskjjcjjjjjjcsaaaaaajsdjsjjjsjssjjsncjsknnnjnkckkkkkkasssscnasjcnwkansnjclaskcnjskjcnkasjncakljndlskvnjsnlvjpraorgjpiahugirhuipsiahoahug[ehugphjavkdkjfsdjfhdlkajhdkjvkjdafpoidjsfoijsfoijwlksadjfkdsjddddddkfjkjjkkkkkkkkdjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjdddddddddddddddddddddddddddddddddddddddddddsssssssssssssssssssssssssssssssssssssssssssssjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjdddkddldlllllllllllllllllllllllllllllllllllllllllllllllllllllllllvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvnnnnnnnnnnnnnnnnnnnnnnnnnnnndddddddddddddddddddddddddddddnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkssssssssssssssssssssssssssssssvdvdsvjaiocjskajkjj";
-        String string = "babad";
-        System.out.println(longestPalindrome(s));
-        // System.out.println(longestPalindrome3(s));
-        System.out.println(longestPalindrome1(s));
-        System.out.println(longestPalindrome(string));
-        // System.out.println(longestPalindrome3(string));
-    }
+遍历匹配方法。
 
-    /**
-     * 没有什么暴力解决不了的问题 不过太慢了
-     * 
-     * @param s
-     * @return
-     */
-    public static String longestPalindrome(String s) {
+[代码](Fives.java)
+
+```java
+public static String longestPalindrome(String s) {
         String k = "";
         String temp = "";
         for (int i = 0; i < s.length(); i++) {
@@ -40,14 +23,20 @@ public class Fives {
         }
         return k;
     }
+```
 
-    /**
-     * 动态规划
-     * 
-     * @param s
-     * @return
-     */
-    public static String longestPalindrome2(String s) {
+
+
+
+
+##### 思路二；
+
+动态规划，当前字符位置为`i` ,那么子问题为，当`i - 1 = i + 1 ` 说明是回文，则接着向两边探测。记录下最大的两边扩展值。
+
+代码：
+
+```java
+ public static String longestPalindrome(String s) {
         if (s == null || s.length() < 1)
             return "";
         int start = 0, end = 0;
@@ -71,14 +60,16 @@ public class Fives {
         }
         return R - L - 1;
     }
+```
 
-    /**
-     * 更新马拉车算法 参考维基百科 最长回文子串
-     * 
-     * @param s
-     * @return
-     */
-    public static String longestPalindrome1(String s) {
+
+
+##### 思路三：
+
+[Manacher](https://zh.wikipedia.org/wiki/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2#Manacher%E7%AE%97%E6%B3%95)算法。在字符串里插入相隔插入一个字符# ，在利用动态规划的方法求最大回文串。
+
+```java
+    public static String longestPalindrome(String s) {
         if (s.length() < 2) {
             return s;
         }
@@ -131,5 +122,7 @@ public class Fives {
         }
         return res;
     }
+```
 
-}
+
+
