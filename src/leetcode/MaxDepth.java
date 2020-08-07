@@ -33,7 +33,7 @@ public class MaxDepth {
     }
 
     public static int maxDepth1(TreeNode root) {
-        Queue <Pair< TreeNode, Integer >> stack = new LinkedList<>();
+        Queue<Pair<TreeNode, Integer>> stack = new LinkedList<>();
         if (root != null) {
             stack.add(new Pair(root, 1));
         }

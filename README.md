@@ -10,6 +10,14 @@ algorithms 练习笔记。
 以下是leetcode ：
 ---
 
+- [x] [存在重复元素](src/leetcode/ContainsDuplicate.md)
+
+- [x] [只出现一次的数字](src/leetcode/SingleNumber.md)
+
+- [x] [旋转数组](src/leetcode/Rotate.md)
+- [x] [买股票的最佳时机 Ⅲ](src/leetcode/MaxProfit.md)
+- [x] [相同的树](src/leetcode/IsSameTree.md)
+
 - [x]  [课程表](src/leetcode/CanFinish.md)
 
 - [ ] [整数拆分](src/leetcode/IntegerBreak.md)
