@@ -16,7 +16,6 @@ import java.util.Arrays;
 
 public class Matrix {
 
-
     /**
      * 向量点乘
      *

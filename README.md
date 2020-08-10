@@ -10,6 +10,12 @@ algorithms 练习笔记。
 以下是leetcode ：
 ---
 
+- [ ] [旋转图像](src/leetcode/)
+
+- [x] [移动零](src/leetcode/MoveZeroes.md)
+
+- [x] [加一](PlusOne.md)
+
 - [x] [存在重复元素](src/leetcode/ContainsDuplicate.md)
 
 - [x] [只出现一次的数字](src/leetcode/SingleNumber.md)
