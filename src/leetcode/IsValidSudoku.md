@@ -1,8 +1,15 @@
-package leetcode;
+## 有趣的数独
 
-public class IsValidSudoku {
+判断一个 9x9 的数独是否有效。
 
-    public boolean isValidSudoku(char[][] board) {
+##### 思路：
+
+根据数独判断
+
+`j / 3 + (i / 3) * 3 `划分区域。
+
+```java
+public boolean isValidSudoku(char[][] board) {
         int[][] row = new int[9][9];
         int[][] col = new int[9][9];
         int[][] box = new int[9][9];
@@ -27,4 +34,5 @@ public class IsValidSudoku {
         }
         return true;
     }
-}
+```
+

@@ -10,7 +10,11 @@ algorithms 练习笔记。
 以下是leetcode ：
 ---
 
-- [ ] [旋转图像](src/leetcode/)
+- [x] [有趣的数独](src/leetcode/IsValidSudoku.md)
+
+- [x] [被围绕的区域](src/leetcode/Solve.md)
+
+- [x] [旋转图像](src/leetcode/RotateMatrix.md)
 
 - [x] [移动零](src/leetcode/MoveZeroes.md)
 
