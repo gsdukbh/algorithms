@@ -1,28 +1,27 @@
-package leetcode;
+## 有效的字母异位词
 
-import java.util.Arrays;
+##### 思路：
 
-public class IsAnagram {
+将字符串重新排序。
 
-    public static void main(String[] args) {
-        System.out.println(isAnagram("ac", "bb"));
-    }
-
-    /**
-     *
-     */
-    public static boolean isAnagram(String s, String t) {
-        if (s.length() != t.length()) {
+```java
+ if (s.length() != t.length()) {
             return false;
         }
         char[] str = s.toCharArray();
         char[] tr = t.toCharArray();
         Arrays.sort(str);
         Arrays.sort(tr);
-        return Arrays.equals(tr, str);
-    }
+       return Arrays.equals(tr, str);
+}
+```
 
-    public boolean isAnagram1(String s, String t) {
+
+
+利用数组记录重复的字符，仅限小写字母。
+
+```java
+ public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
             return false;
         }
@@ -38,4 +37,5 @@ public class IsAnagram {
         }
         return true;
     }
-}
+```
+

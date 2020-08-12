@@ -10,6 +10,14 @@ algorithms 练习笔记。
 以下是leetcode ：
 ---
 
+- [x] [验证回文串](src/leetcode/IsPalindrome.md)
+
+- [x] [有效的字母异位词](src/leetcode/IsAnagram.md)
+
+- [x] [克隆图](src/leetcode/CloneGraph.md)
+
+- [x] [字符串中第一个不重复的字符](src/leetcode/FirstUniqChar.md)
+
 - [x] [有趣的数独](src/leetcode/IsValidSudoku.md)
 
 - [x] [被围绕的区域](src/leetcode/Solve.md)
