@@ -10,6 +10,8 @@ algorithms 练习笔记。
 以下是leetcode ：
 ---
 
+- [x] [实现strStr](src/leetcode/StrStr.md)
+
 - [x] [字符串相乘](src/leetcode/Multiply.md)
 
 - [x] [验证回文串](src/leetcode/IsPalindrome.md)
