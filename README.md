@@ -3,12 +3,14 @@ algorithms 练习笔记。
 
 记录平时algorithm练习笔记
 
-[algorithms 第四版学习笔记](src/algortihm)
+[algorithms 第四版学习笔记](src/algorithms)
 
 
 
 以下是leetcode ：
 ---
+
+- [x] [字符串相乘](src/leetcode/Multiply.md)
 
 - [x] [验证回文串](src/leetcode/IsPalindrome.md)
 
