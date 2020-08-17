@@ -10,6 +10,12 @@ algorithms 练习笔记。
 以下是leetcode ：
 ---
 
+- [x] [回文链表](src/IsPalindromeTree.md)
+
+- [x] [外观数列](src/leetcode/CountAndSay.md)
+
+- [x] [判断平衡二叉树](src/leetcode/IsBalanced.md)
+
 - [x] [实现strStr](src/leetcode/StrStr.md)
 
 - [x] [字符串相乘](src/leetcode/Multiply.md)

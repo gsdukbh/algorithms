@@ -3,7 +3,7 @@ package leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.swing.plaf.synth.SynthToolBarUI;
+
 
 /**
  * Definition for a binary tree node 定义二叉树
@@ -51,4 +51,6 @@ public class TreeNode {
 
                 }
         }
+
+
 }
