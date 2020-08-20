@@ -40,17 +40,4 @@ public class TreeNode {
                 prologue(root);
                 return res;
         }
-
-        public void soutTree(TreeNode root) {
-                if (root != null) {
-                        System.out.println(root.val);
-                        System.out.println("/");
-                        soutTree(root.left);
-                        System.out.println("\\");
-                        soutTree(root.right);
-
-                }
-        }
-
-
 }

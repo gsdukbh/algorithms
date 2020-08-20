@@ -66,7 +66,7 @@ public static String longestPalindrome(String s) {
 
 ##### 思路三：
 
-[Manacher](https://zh.wikipedia.org/wiki/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2#Manacher%E7%AE%97%E6%B3%95)算法。在字符串里插入相隔插入一个字符# ，在利用动态规划的方法求最大回文串。
+[Manacher](https://zh.wikipedia.org/wiki/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2#Manacher%E7%AE%97%E6%B3%95)算法。在字符串里插入相隔插入一个字符`#` ，在利用动态规划的方法求最大回文串。
 
 ```java
     public static String longestPalindrome(String s) {

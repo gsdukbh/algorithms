@@ -10,6 +10,14 @@ algorithms 练习笔记。
 以下是leetcode ：
 ---
 
+- [x] [对称二叉树](src/leetcode/IsSymmetric.md)
+
+- [x] [验证二叉搜索树](src/leetcode/IsValidBST.md)
+
+- [x] [扫雷游戏](src/leetcode/UpdateBoard.md)
+
+- [x] [回文子串](src/leetcode/CountSubstrings.md)
+
 - [x] [回文链表](src/IsPalindromeTree.md)
 
 - [x] [外观数列](src/leetcode/CountAndSay.md)
@@ -89,7 +97,7 @@ algorithms 练习笔记。
 * - [x] 14 [最长公共前缀](src/leetcode/Fourteen.md)
 * - [x] 2 [两数相加](/src/leetcode/QuestionTwo.java)
 * - [x]  4 [寻找两个有序数组的中位数](/src/leetcode/Four.java)
-* - [x] 5 [最长回文子串](/src/leetcode/Fives.md)
+* - [x] 5 [最长回文子串](src/leetcode/Fives.md)
 * - [x] 3 [无重复字符的最长子串](/src/leetcode/Three.java)
 * - [x] 7 [整数反转](/src/leetcode/seven.java)
 * - [x] 9 [回文数](/src/leetcode/Nine.java) 
