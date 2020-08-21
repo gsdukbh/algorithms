@@ -3,12 +3,16 @@ algorithms 练习笔记。
 
 记录平时algorithm练习笔记
 
-[algorithms 第四版学习笔记](src/algorithms)
+[algorithms 第四版学习笔记](src/algorithms/README.md)
 
 
 
 以下是leetcode ：
 ---
+
+- [x] [有序数组转换为二叉搜索树](src/leetcode/SortedArrayToBinarySearchTree.md)
+
+- [x] [二叉树的最小深度](src/leetcode/MinDepth.md)
 
 - [x] [对称二叉树](src/leetcode/IsSymmetric.md)
 

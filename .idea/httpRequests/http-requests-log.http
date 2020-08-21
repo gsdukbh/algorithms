@@ -1,0 +1,32 @@
+GET http://github.com/login/oauth/authorize
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password&username=gsdukbh&password=qq1361404576
+
+<> 2020-08-21T023119.200.html
+
+###
+
+GET http://8eaa5c19b29fa2282a21:e67a80c84fdb52766970b83cdf89ca0ce422d96e@github.com/login/oauth/authorize
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password&username=gsdukbh&password=qq1361404576
+
+<> 2020-08-21T023053.200.html
+
+###
+
+POST http://8eaa5c19b29fa2282a21:e67a80c84fdb52766970b83cdf89ca0ce422d96e@github.com/login/oauth/authorize
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password&username=gsdukbh&password=qq1361404576
+
+###
+
+POST http://8eaa5c19b29fa2282a21:e67a80c84fdb52766970b83cdf89ca0ce422d96e@github.com/login/oauth/access_token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password&username=gsdukbh&password=qq1361404576
+
+###
+

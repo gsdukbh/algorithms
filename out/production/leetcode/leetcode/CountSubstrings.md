@@ -4,6 +4,8 @@
 
 动态规划，中心扩展的方式
 
+[参考](Fives.md) 其中的`2n-1`是为了防止字符串的长度出现奇偶，中间字符一个或两个的问题。
+
 ```java
 public static int countSubstrings(String s) {
         int length = s.length(), res = 0;
