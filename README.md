@@ -10,6 +10,10 @@ algorithms 练习笔记。
 以下是leetcode ：
 ---
 
+- [x] [合并两有序数组](src/leetcode/Merge.md)
+
+- [x] [重复的字符串](src/leetcode/RrepeatedSubstringPattern.md)
+
 - [x] [有序数组转换为二叉搜索树](src/leetcode/SortedArrayToBinarySearchTree.md)
 
 - [x] [二叉树的最小深度](src/leetcode/MinDepth.md)
