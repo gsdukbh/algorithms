@@ -10,6 +10,12 @@ algorithms 练习笔记。
 以下是leetcode ：
 ---
 
+- [x] [爬楼梯](src/leetcode/ClimbStairs.md)
+
+- [x] [第一个错误版本](src/leetcode/FirstBadVersion.md)
+
+- [x] [递增子序列](src/leetcode/FindSubsequences.md)
+
 - [x] [合并两有序数组](src/leetcode/Merge.md)
 
 - [x] [重复的字符串](src/leetcode/RrepeatedSubstringPattern.md)

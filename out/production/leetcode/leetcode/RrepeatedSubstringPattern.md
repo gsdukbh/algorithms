@@ -32,3 +32,12 @@ public  static boolean repeatedSubstringPattern(String s) {
 
 ##### 思路：字符串匹配
 
+假设字符串`S` 由`n`个`s`组成， 则有`S=ns` `S+S=2ns` ,则在 `2ns[1,2n-1]` 必然有一个`S`
+
+```java
+   public static boolean repeatedSubstringPattern1(String s) {
+        String s2 = s + s;
+        return s2.indexOf(s, 1) != s.length();
+    }
+```
+
