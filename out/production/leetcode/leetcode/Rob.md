@@ -6,9 +6,11 @@
 
 在三层的二叉树下，最多有每层1 ，2 ，4 个节点。 因为不能在直接相连的节点打劫，只能是第一层和第三层全部拿，或者第2 层拿。
 
-那么就是1;`money=root.val+root.left.left+root.left.right.val+root.right.left+root.right.right` 
+那么就是：
 
-2；`money=root.left+root.right`
+1：`money=root.val+root.left.left+root.left.right.val+root.right.left+root.right.right` 
+
+2：`money=root.left+root.right`
 
  取这个俩个的最大值。使用深度搜索的方式，
 
@@ -59,4 +61,6 @@ static Map<TreeNode, Integer> memory = new HashMap<>();
         return res;
     }
 ```
+
+## 打家劫舍 Ⅰ
 

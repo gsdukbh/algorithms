@@ -60,13 +60,47 @@ public class Rob {
 
     public static int[] dfs(TreeNode root) {
         if (root == null) {
-            return new int[] { 0, 0 };
+            return new int[]{0, 0};
         }
 
         int[] left = dfs(root.left);
         int[] right = dfs(root.right);
         int is = root.val + left[1] + right[1];
         int not = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
-        return new int[] { is, not };
+        return new int[]{is, not};
     }
+
+    /**
+     * 打家劫舍 Ⅰ
+     *
+     * @param nums
+     * @return
+     */
+    public static int rob(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        if (nums.length == 1) {
+            return nums[0];
+        }
+        int[] dp = new int[nums.length];
+        dp[0] = nums[0];
+        dp[1] = Math.max(nums[0], nums[1]);
+        for (int i = 2; i < nums.length; i++) {
+            dp[i] = Math.max(dp[i - 1], nums[i - 2] + dp[i]);
+        }
+        return dp[nums.length - 1];
+    }
+
+    public static int rob1(int[] nums) {
+        int first = 0;
+        int second = 0;
+        for (int i : nums) {
+            int temp = second;
+            second = Math.max(second, first + i);
+            first = temp;
+        }
+        return second;
+    }
+
 }

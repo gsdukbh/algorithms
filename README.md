@@ -10,6 +10,12 @@ algorithms 练习笔记。
 以下是leetcode ：
 ---
 
+- [x] [最大子序列和](src/leetcode/MaxSubArray.md)
+
+- [x] [重新安排行程](src/leetcode/FindItinerary.md)
+
+- [x] [九键英文输入法](src/leetcode/LetterCombinations.md)
+
 - [x] [爬楼梯](src/leetcode/ClimbStairs.md)
 
 - [x] [第一个错误版本](src/leetcode/FirstBadVersion.md)
