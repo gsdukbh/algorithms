@@ -64,3 +64,50 @@ static Map<TreeNode, Integer> memory = new HashMap<>();
 
 ## 打家劫舍 Ⅰ
 
+这侧输入的格式为数组。房子是成线条装排列的。
+
+我们可以使用动态规划来解决问题。
+
+因为在相邻的房子偷取，会报警。假设当前小偷到的第i房子时，那么有
+
+1：不偷：`f(i-1)` 前的钱。
+
+2：偷：`f(i-2)` 的钱。不能偷相邻的位置。
+
+```java
+if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        if (nums.length == 1) {
+            return nums[0];
+        }
+        int[] dp = new int[nums.length];
+        dp[0] = nums[0];
+        dp[1] = Math.max(nums[0], nums[1]);
+        for (int i = 2; i < nums.length; i++) {
+            dp[i] = Math.max(dp[i - 1], nums[i - 2] + dp[i]);
+        }
+        return dp[nums.length - 1];
+```
+
+
+
+##### 思路：2
+
+滑动数组
+
+```java
+public static int rob(int[] nums) {
+        int first = 0;
+        int second = 0;
+        for (int i : nums) {
+            int temp = second;
+            second = Math.max(second, first + i);
+            first = temp;
+        }
+        return second;
+    }
+```
+
+
+

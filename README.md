@@ -10,6 +10,12 @@ algorithms 练习笔记。
 以下是leetcode ：
 ---
 
+- [x] [最小栈](src/leetcode/MinStack.md)
+
+- [x] [打乱数组](src/leetcode/UpsetArray.md)
+
+- [x] [机器人是否能返回原点](src/leetcode/JudgeCircle.md)
+
 - [x] [最大子序列和](src/leetcode/MaxSubArray.md)
 
 - [x] [重新安排行程](src/leetcode/FindItinerary.md)

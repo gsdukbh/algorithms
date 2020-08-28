@@ -1,0 +1,89 @@
+## 最小栈
+
+实现一个栈，并以常数级别返回栈中的最小值。
+
+
+
+##### 思路： 使用数组实现。
+
+```java
+public class MinStack {
+    private int[][] array = new int[1][2];
+    private int count = 1;
+
+    /**
+     * initialize your data structure here.
+     */
+    public MinStack() {
+        array[0][1] = Integer.MAX_VALUE;
+    }
+
+    public void push(int x) {
+        if (count == array.length) {
+            resize(array.length * 2 + 1);
+        }
+        array[count][1] = Math.min(x, array[count - 1][1]);
+        array[count++][0] = x;
+    }
+
+    public void pop() {
+        count--;
+//        6 最佳， 4 报错
+        if (count > 0 && count == array.length / 6) {
+            resize(array.length / 3);
+        }
+    }
+
+    public int top() {
+        return array[count - 1][0];
+    }
+
+    public int getMin() {
+        return array[count - 1][1];
+    }
+
+    private void resize(int max) {
+        int[][] tem = new int[max][2];
+        for (int i = 0; i < array.length; i++) {
+            System.arraycopy(array[i], 0, tem[i], 0, 2);
+        }
+        array = tem;
+    }
+}
+```
+
+
+
+##### 思路2：辅助栈
+
+```java
+class MinStack {
+
+
+ private Stack<Integer> stack;
+    private Stack<Integer> min_stack;
+    public MinStack() {
+        stack = new Stack<>();
+        min_stack = new Stack<>();
+    }
+    public void push(int x) {
+        stack.push(x);
+        if(min_stack.isEmpty() || x <= min_stack.peek())
+            min_stack.push(x);
+    }
+    public void pop() {
+        if(stack.pop().equals(min_stack.peek()))
+            min_stack.pop();
+    }
+    public int top() {
+        return stack.peek();
+    }
+    public int getMin() {
+        return min_stack.peek();
+    }
+
+}
+```
+
+
+
