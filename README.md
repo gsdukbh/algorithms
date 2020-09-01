@@ -10,6 +10,14 @@ algorithms 练习笔记。
 以下是leetcode ：
 ---
 
+- [x] [汉明距离，汉明重量](src/leetcode/Hanming.md)
+
+- [x] [3的幂](src/leetode/IsPowerOfThree.md)
+
+- [x] [计数质数](src/leetcode/CountPrimes.md)
+
+- [x] [钥匙和房间](src/leetcode/CanVisitAllRooms.md)
+
 - [x] [最小栈](src/leetcode/MinStack.md)
 
 - [x] [打乱数组](src/leetcode/UpsetArray.md)
