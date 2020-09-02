@@ -55,9 +55,7 @@ public class PredictTheWinner {
     public boolean predictTheWinner2(int[] nums) {
         int length = nums.length;
         int[] dp = new int[length];
-        for (int i = 0; i < length; i++) {
-            dp[i] = nums[i];
-        }
+        System.arraycopy(nums, 0, dp, 0, length);
         for (int i = length - 2; i >= 0; i--) {
             for (int j = i + 1; j < length; j++) {
                 dp[j] = Math.max(nums[i] - dp[j], nums[j] - dp[j - 1]);

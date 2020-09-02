@@ -10,6 +10,10 @@ algorithms 练习笔记。
 以下是leetcode ：
 ---
 
+- [x] [数值字串](src/leetcode/IsNumber.md)
+
+- [x] [预测赢家](src/leetcode/PredictTheWinner.md)
+
 - [x] [汉明距离，汉明重量](src/leetcode/Hanming.md)
 
 - [x] [3的幂](src/leetode/IsPowerOfThree.md)
