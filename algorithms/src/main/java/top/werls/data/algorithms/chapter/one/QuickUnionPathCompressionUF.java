@@ -1,7 +1,5 @@
 package top.werls.data.algorithms.chapter.one;
 
-import edu.princeton.cs.algs4.StdIn;
-import edu.princeton.cs.algs4.StdOut;
 
 /**
  * @author : Lee JiaWei
