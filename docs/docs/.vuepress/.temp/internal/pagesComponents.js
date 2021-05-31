@@ -3,6 +3,8 @@ import { defineAsyncComponent } from 'vue'
 export const pagesComponents = {
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/leejiawei/Documents/GitHub/algorithms/docs/docs/.vuepress/.temp/pages/index.html.vue")),
+  // path: /algorithms/
+  "v-b26deb9c": defineAsyncComponent(() => import(/* webpackChunkName: "v-b26deb9c" */"/Users/leejiawei/Documents/GitHub/algorithms/docs/docs/.vuepress/.temp/pages/algorithms/index.html.vue")),
   // path: /leetcode/AddStrings.html
   "v-335ade77": defineAsyncComponent(() => import(/* webpackChunkName: "v-335ade77" */"/Users/leejiawei/Documents/GitHub/algorithms/docs/docs/.vuepress/.temp/pages/leetcode/AddStrings.html.vue")),
   // path: /leetcode/CanFinish.html
@@ -157,8 +159,6 @@ export const pagesComponents = {
   "v-4f057d49": defineAsyncComponent(() => import(/* webpackChunkName: "v-4f057d49" */"/Users/leejiawei/Documents/GitHub/algorithms/docs/docs/.vuepress/.temp/pages/leetcode/intToRoma-Q-12.html.vue")),
   // path: /leetcode/reConstructBinaryTree.html
   "v-6eb05857": defineAsyncComponent(() => import(/* webpackChunkName: "v-6eb05857" */"/Users/leejiawei/Documents/GitHub/algorithms/docs/docs/.vuepress/.temp/pages/leetcode/reConstructBinaryTree.html.vue")),
-  // path: /algorithms/
-  "v-b26deb9c": defineAsyncComponent(() => import(/* webpackChunkName: "v-b26deb9c" */"/Users/leejiawei/Documents/GitHub/algorithms/docs/docs/.vuepress/.temp/pages/algorithms/index.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"/Users/leejiawei/Documents/GitHub/algorithms/docs/docs/.vuepress/.temp/pages/404.html.vue")),
 }

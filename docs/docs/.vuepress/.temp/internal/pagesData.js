@@ -1,6 +1,8 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/leejiawei/Documents/GitHub/algorithms/docs/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
+  // path: /algorithms/
+  "v-b26deb9c": () => import(/* webpackChunkName: "v-b26deb9c" */"/Users/leejiawei/Documents/GitHub/algorithms/docs/docs/.vuepress/.temp/pages/algorithms/index.html.js").then(({ data }) => data),
   // path: /leetcode/AddStrings.html
   "v-335ade77": () => import(/* webpackChunkName: "v-335ade77" */"/Users/leejiawei/Documents/GitHub/algorithms/docs/docs/.vuepress/.temp/pages/leetcode/AddStrings.html.js").then(({ data }) => data),
   // path: /leetcode/CanFinish.html
@@ -155,8 +157,6 @@ export const pagesData = {
   "v-4f057d49": () => import(/* webpackChunkName: "v-4f057d49" */"/Users/leejiawei/Documents/GitHub/algorithms/docs/docs/.vuepress/.temp/pages/leetcode/intToRoma-Q-12.html.js").then(({ data }) => data),
   // path: /leetcode/reConstructBinaryTree.html
   "v-6eb05857": () => import(/* webpackChunkName: "v-6eb05857" */"/Users/leejiawei/Documents/GitHub/algorithms/docs/docs/.vuepress/.temp/pages/leetcode/reConstructBinaryTree.html.js").then(({ data }) => data),
-  // path: /algorithms/
-  "v-b26deb9c": () => import(/* webpackChunkName: "v-b26deb9c" */"/Users/leejiawei/Documents/GitHub/algorithms/docs/docs/.vuepress/.temp/pages/algorithms/index.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"/Users/leejiawei/Documents/GitHub/algorithms/docs/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
 }

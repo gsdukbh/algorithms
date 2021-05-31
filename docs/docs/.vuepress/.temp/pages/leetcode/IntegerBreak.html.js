@@ -22,7 +22,13 @@ export const data = {
   ],
   "filePathRelative": "leetcode/IntegerBreak.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1622450691000,
+    "contributors": [
+      {
+        "name": "JiaWei Lee",
+        "email": "gsdukbh@gmail.com",
+        "commits": 1
+      }
+    ]
   }
 }

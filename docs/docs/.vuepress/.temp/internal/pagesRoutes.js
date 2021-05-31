@@ -2,6 +2,7 @@ import { Vuepress } from '@vuepress/client/lib/components/Vuepress'
 
 const routeItems = [
   ["v-8daa1a0e","/","",["/index.html","/README.md"]],
+  ["v-b26deb9c","/algorithms/","",["/algorithms/index.html","/algorithms/README.md"]],
   ["v-335ade77","/leetcode/AddStrings.html","",["/leetcode/AddStrings.md"]],
   ["v-882b9a92","/leetcode/CanFinish.html","",["/leetcode/CanFinish.md"]],
   ["v-631c33b4","/leetcode/CanVisitAllRooms.html","",["/leetcode/CanVisitAllRooms.md"]],
@@ -79,7 +80,6 @@ const routeItems = [
   ["v-47cd8dfa","/leetcode/inorderTraversal.html","",["/leetcode/inorderTraversal.md"]],
   ["v-4f057d49","/leetcode/intToRoma-Q-12.html","",["/leetcode/intToRoma-Q-12.md"]],
   ["v-6eb05857","/leetcode/reConstructBinaryTree.html","",["/leetcode/reConstructBinaryTree.md"]],
-  ["v-b26deb9c","/algorithms/","",["/algorithms/index.html","/algorithms/README.md"]],
   ["v-3706649a","/404.html","",[]],
 ]
 
