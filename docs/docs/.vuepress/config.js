@@ -1,6 +1,6 @@
 module.exports = {
     lang: 'zh-CN',
-    title: '你好，',
+    title: 'algorithm 笔记',
     description: 'algorithm 笔记',
     base:'/algorithms/',
 
