@@ -1,0 +1,15 @@
+<template><h2 id="第一个错误版本"><a class="header-anchor" href="#第一个错误版本">#</a> 第一个错误版本</h2>
+<h5 id="思路-二分查找"><a class="header-anchor" href="#思路-二分查找">#</a> 思路：二分查找</h5>
+<div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code>    <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">firstBadVersion</span><span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">int</span> le<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span>ri<span class="token operator">=</span>n<span class="token punctuation">;</span>
+        <span class="token keyword">while</span><span class="token punctuation">(</span>le<span class="token operator">&lt;</span>ri<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">int</span> mid<span class="token operator">=</span>le <span class="token operator">+</span> <span class="token punctuation">(</span>ri<span class="token operator">-</span>le<span class="token punctuation">)</span><span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">;</span>
+            <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token function">isBadVersion</span><span class="token punctuation">(</span>mid<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                ri<span class="token operator">=</span>mid<span class="token punctuation">;</span>
+            <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+                le<span class="token operator">=</span>mid<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> le<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div></template>

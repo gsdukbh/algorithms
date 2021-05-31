@@ -125,3 +125,4 @@ Temporary Items
 .apdisk
 
 .vscode/**
+docs/node_modules/**
