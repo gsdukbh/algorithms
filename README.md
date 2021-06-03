@@ -9,6 +9,8 @@ algorithms 练习笔记。
 以下是leetcode ：
 ---
 
+- [x] [连续数组](docs/docs/leetcode/连续数组.md)
+
 - [x]  [连续的子数组和](docs/docs/leetcode/CheckSubarraySum.md)
 
 
