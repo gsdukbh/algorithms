@@ -1,17 +1,7 @@
 最大二叉树
 ---
-###题目描述
-
-![](../../../img/654.png)
-
-
-###解决结果
-
-![](../../../img/ConstructMaximumBinaryTree.png)
 
 ###代码
-
-[代码](../../../leetcode/app/src/main/java/top/werls/leetcode/ConstructMaximumBinaryTree.java)
 
 ```java
 public class ConstructMaximumBinaryTree {
