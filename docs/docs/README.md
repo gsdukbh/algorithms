@@ -8,7 +8,7 @@ algorithms 练习笔记。
 
 以下是leetcode ：
 ---
-
+- [x] [剑指 Offer 47. 礼物的最大价值](leetcode/GiftMaximum_2704.md)
 - [x] [连续数组](leetcode/连续数组.md)
 
 - [x]  [连续的子数组和](leetcode/CheckSubarraySum.md)
