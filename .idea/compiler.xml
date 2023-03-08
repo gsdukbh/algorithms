@@ -5,6 +5,7 @@
       <module name="algorithms4.app" target="11" />
       <module name="algorithms4.app.main" target="11" />
       <module name="algorithms4.app.test" target="11" />
+      <module name="algortihm" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

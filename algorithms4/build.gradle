@@ -22,6 +22,9 @@ dependencies {
 
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:30.0-jre'
+    // https://mvnrepository.com/artifact/edu.princeton.cs/algs4
+    implementation group: 'edu.princeton.cs', name: 'algs4', version: '1.0.3'
+
 }
 
 application {
