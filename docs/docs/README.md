@@ -8,6 +8,7 @@ algorithms 练习笔记。
 
 以下是leetcode ：
 ---
+- [x] [2379. 得到 K 个黑块的最少涂色次数](leetcode/MinimumRecolors_2379.md)
 - [x] [剑指 Offer 47. 礼物的最大价值](leetcode/GiftMaximum_2704.md)
 - [x] [连续数组](leetcode/连续数组.md)
 
