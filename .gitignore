@@ -126,3 +126,21 @@ Temporary Items
 
 .vscode/**
 docs/node_modules/**
+/docs/docs/.vuepress/dist/
+/docs/docs/.vuepress/.cache/
+/docs/docs/.vuepress/.temp/
+/.idea/
+/.idea/inspectionProfiles/
+/.idea/algorithms.iml
+/.idea/checkstyle-idea.xml
+/.idea/compiler.xml
+/.idea/encodings.xml
+/.idea/google-java-format.xml
+/.idea/gradle.xml
+/.idea/jarRepositories.xml
+/.idea/jpa-buddy.xml
+/.idea/libraries-with-intellij-classes.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/uiDesigner.xml
+/.idea/vcs.xml

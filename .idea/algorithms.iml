@@ -5,6 +5,8 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/algorithms4/app/bin" />
       <excludeFolder url="file://$MODULE_DIR$/algorithms4/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/docs/docs/.vuepress/.cache" />
+      <excludeFolder url="file://$MODULE_DIR$/docs/docs/.vuepress/.temp" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
