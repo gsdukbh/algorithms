@@ -3,10 +3,7 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/algorithms4/app/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/algorithms4/.gradle" />
-      <excludeFolder url="file://$MODULE_DIR$/docs/docs/.vuepress/.cache" />
-      <excludeFolder url="file://$MODULE_DIR$/docs/docs/.vuepress/.temp" />
+      <excludeFolder url="file://$MODULE_DIR$/leetcode/.gradle" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
