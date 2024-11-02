@@ -19,12 +19,8 @@ repositories {
 }
 
 dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     // Use JUnit test framework.
     testImplementation 'junit:junit:4.13.1'
 
-    // This dependency is used by the application.
-    implementation 'com.google.guava:guava:33.3.1-jre'
-
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation files('libs/stdlib.jar')
 }
